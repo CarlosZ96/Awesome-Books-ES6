@@ -1,5 +1,10 @@
 import { Abooks } from './book.js';
+import { DateTime } from'luxon';
 
+const DateTime = luxon.DateTime;
+const ctime = DateTime.now().toFormat('LLL dd yyyy tttt');
+const time = document.querySelector('.date');
+time.textContent='Hola';
 const form = document.querySelector('form');
 const bookList = document.getElementById('bookList');
 const menua = document.querySelector('.menua');
