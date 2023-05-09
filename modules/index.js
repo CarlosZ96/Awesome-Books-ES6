@@ -1,6 +1,6 @@
 import { Abooks } from './book.js';
 import { gettime } from './Time.js';
-import { DateTime, Settings } from'./luxon.js';
+import { DateTime, Settings } from'./node_modules/luxon.js';
 
 const Date = document.querySelector('.date');
 
