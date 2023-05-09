@@ -1,10 +1,11 @@
 import { Abooks } from './book.js';
-import { DateTime } from 'luxon';
 
 
 const ctime = DateTime.now().toFormat('LLL dd yyyy tttt');
 const time = document.querySelector('.date');
-
+const ctimep = document.createElement('p');
+ctimep.className = 'ctimep';
+time.appendChild('ctimep');
 const form = document.querySelector('form');
 const bookList = document.getElementById('bookList');
 const menua = document.querySelector('.menua');
