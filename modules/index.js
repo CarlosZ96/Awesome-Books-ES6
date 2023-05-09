@@ -1,4 +1,4 @@
-import { Abooks } from './book';
+import { Abooks } from './book.js';
 
 let dt = DateTime.fromObject({day: 9, hour: 11 }, { zone: 'America/Los_Angeles', numberingSystem: 'beng'})
 const form = document.querySelector('form');
