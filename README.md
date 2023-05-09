@@ -27,13 +27,13 @@
 
 Awesome Books
 
-**Awesome Books** Portfolio I can put on it all my work and personal information
+**Awesome Books** It helps you to store your books in a list that you can edit according to your taste with the author and title, these lists will be automatically saved by your browser. Portfolio I can put on it all my work and personal information
 
 ## 🛠 Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
 - JAVASCRIPT
-
+- CSS
 </a>
 
 <!-- Features -->
@@ -69,7 +69,7 @@ Clone this repository to your desired folder:
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo">Coming soo..</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,19 +77,11 @@ Clone this repository to your desired folder:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-
-👤 **Joaquin Calle Aranzolo**
-
-- GitHub: [Joaquin123455](https://github.com/Joaquin123455)
-- Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
-- LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
-
 👤 **Carlos Zambrano**
 
 - GitHub: [CarlosZ96](https://github.com/CarlosZ96)
-- Twitter: [@ElZambrano2](https://twitter.com/ElZambrano2)
-- LinkedIn: [Carlos Zambrano](https://www.linkedin.com/in/carlos-zambrano-695ccb260/)
+- Twitter: [@ElZambrano2](https://twitter.com/ELZambrano2)
+- LinkedIn: [Carlos Zambrano](https://www.linkedin.com/in/carlos-zambrano-845406173/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
