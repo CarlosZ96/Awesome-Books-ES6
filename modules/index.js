@@ -1,3 +1,4 @@
+import { Abooks } from './book.js';
 const form = document.querySelector('form');
 const bookList = document.getElementById('bookList');
 const menua = document.querySelector('.menua');
@@ -7,8 +8,6 @@ const main = document.querySelector('.list');
 const add = document.querySelector('.add_new');
 const contact = document.querySelector('.contact');
 const books = [];
-
-import { Abooks } from './book.js';
 
 const Abooksa = new Abooks(books);
 Abooksa.local();
