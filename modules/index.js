@@ -1,11 +1,15 @@
 import { Abooks } from './book.js';
+import { gettime } from './Time.js';
+import { DateTime, Settings } from'./luxon.js';
 
+const Date = document.querySelector('.date');
 
-const ctime = DateTime.now().toFormat('LLL dd yyyy tttt');
-const time = document.querySelector('.date');
-const ctimep = document.createElement('p');
-ctimep.className = 'ctimep';
-time.appendChild('ctimep');
+Settings.defaultLocale = 'en-US';
+
+setInterval(() => {
+  Date.textContent = DateTime.utc().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+}, 1000);
+
 const form = document.querySelector('form');
 const bookList = document.getElementById('bookList');
 const menua = document.querySelector('.menua');
@@ -14,6 +18,8 @@ const menuc = document.querySelector('.menuc');
 const main = document.querySelector('.list');
 const add = document.querySelector('.add_new');
 const contact = document.querySelector('.contact');
+
+gettime();
 const books = [];
 
 const Abooksa = new Abooks(books);
