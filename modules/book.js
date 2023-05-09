@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 const form = document.querySelector('form');
 const bookList = document.getElementById('bookList');
 export class Abooks {

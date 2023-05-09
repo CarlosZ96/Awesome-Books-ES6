@@ -1,4 +1,5 @@
-import { Abooks } from './book.js';
+import { Abooks } from './book';
+
 const form = document.querySelector('form');
 const bookList = document.getElementById('bookList');
 const menua = document.querySelector('.menua');
