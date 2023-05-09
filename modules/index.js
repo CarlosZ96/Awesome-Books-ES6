@@ -1,6 +1,6 @@
 import { Abooks } from './book';
 
-const dt = DateTime.local(2023, 5, 09, 10, 50);
+let dt = DateTime.fromObject({day: 9, hour: 11 }, { zone: 'America/Los_Angeles', numberingSystem: 'beng'})
 const form = document.querySelector('form');
 const bookList = document.getElementById('bookList');
 const menua = document.querySelector('.menua');
