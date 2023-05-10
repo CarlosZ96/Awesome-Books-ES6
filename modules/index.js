@@ -1,8 +1,9 @@
 import { Abooks } from './book.js';
 import { gettime } from './Time.js';
-import { DateTime } from './luxon.js';
+import { DateTime, Settings} from './luxon.js';
 
 const Date = document.querySelector('.date');
+Settings.defaultLocale = 'en-US';
 
 setInterval(() => {
   Date.textContent = DateTime.utc().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
