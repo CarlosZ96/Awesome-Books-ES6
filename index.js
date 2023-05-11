@@ -1,7 +1,7 @@
-import { Abooks } from './book.js';
-import { gettime } from './Time.js';
+import { Abooks } from './modules/book.js';
+import { gettime } from './modules/Time.js';
 /* eslint-disable */
-import { DateTime, Settings } from './luxon.js';
+import { DateTime, Settings } from './modules/luxon.js';
 
 const Date = document.querySelector('.date');
 Settings.defaultLocale = 'en-US';
