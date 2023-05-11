@@ -69,7 +69,9 @@ Clone this repository to your desired folder:
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">Coming soo..</a>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://carlosz96.github.io/Awesome-Books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
